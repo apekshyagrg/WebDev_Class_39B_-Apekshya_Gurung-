@@ -1,0 +1,151 @@
+h1 {
+    text-align: center;
+}
+
+#post {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    font-size: 21px;
+    color: rgb(108, 53, 53);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    background-color: #EA6B7E;
+}
+
+.site {
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #CAE7F7;
+}
+
+section {
+    padding: 10px 40px;
+}
+
+#introduction h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
+#introduction p {
+    text-align: justify;
+}
+
+#introduction img {
+    display: block;
+    margin: 20px auto 10px;
+    border-radius: 15%;
+}
+
+#introduction figcaption {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#experience li:nth-child(odd) {
+    font-weight: 300;
+}
+
+#experience li:nth-child(even) {
+    font-weight: bold;
+}
+
+table {
+    width: 600px;
+    margin: 0;
+    border: 2px solid #2d1218;
+}
+
+th {
+    background: #451818;
+    color: #f5d6d6;
+    padding: 14px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background: #f5f3ff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #CAE7F7;
+}
+
+tbody tr:hover {
+    background: #e2e065;
+}
+
+#projects ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+#projects li {
+    flex: 1;
+    padding: 1.5rem;
+    border: 2px solid #18b9d5;
+    background: #f6e094;
+    text-align: center;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+#projects li:hover {
+    background: #18b9d5;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border: 10px solid #470f0f;
+}
+
+form {
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input:not([type="radio"]),
+select {
+    padding: 10px;
+}
+button {
+    padding: 15px;
+    background: #4e0e4d;
+    color: white;
+    border: none;
+
+}
+
+button:hover {
+    background: #e767b8;
+}
