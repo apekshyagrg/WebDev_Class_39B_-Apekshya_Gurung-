@@ -1,6 +1,6 @@
-const calculateTotal = (a, b, c) => a + b + c;
-const calculateAverage = (a, b, c) => {
-  return calculateTotal(a, b, c) / 3;
+const calculateTotal = (m1, m2, m3) => m1 + m2 + m3;
+const calculateAverage = (m1, m2, m3) => {
+  return calculateTotal(m1, m2, m3) / 3;
 };
 const getDivision = (average) => {
   if (average >= 70) {
@@ -13,8 +13,8 @@ const getDivision = (average) => {
     return "Fail";
   }
 };
-const processResult = (name, a, b, c, divisionRule) => {
-  const average = calculateAverage(a, b, c);
+const processResult = (name, m1, m2, m3, divisionRule) => {
+  const average = calculateAverage(m1, m2, m3);
   const division = divisionRule(average);
 
   console.log(`Student: ${name}`);
